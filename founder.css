@@ -1,0 +1,48 @@
+.founder{
+    height: 130vh;
+    width: 100vw;
+    border: 2px solid rgb(82 23 23 / 0%);
+    display: flex;
+    background-color: rgba(47, 58, 177, 0.336);
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+
+
+.founder-1,.founder-2{
+    height:40vh;
+    width: 30vw;
+    
+    
+   
+
+
+}
+
+.f-logo-1{
+    height: 80%;
+    width: 60%;
+    border: 5px solid rgba(197, 170, 170, 0.995);
+    border-radius: 50%;
+    background-image: url(f-1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.f-logo-2{
+    height: 80%;
+    width: 60%;
+    border: 5px solid rgb(197, 170, 170);
+    border-radius: 50%;
+    background-image: url(f-2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

@@ -1,0 +1,56 @@
+.teacher{
+    height: 80vh;
+    width: 100vw;
+    border: 2px solid rgb(223, 214, 214);
+    display: flex;
+    background-color: rgba(125, 182, 233, 0.701);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+.teacher-container-1,.teacher-container-2,.teacher-container-3,.teacher-container-4{
+    height:40vh;
+    width: 30vw;
+    
+    
+   
+
+
+}
+
+.teacher-logo-1{
+    height: 80%;
+    width: 60%;
+    border: 5px solid rgb(197, 170, 170);
+    border-radius: 50%;
+    background-image: url(t-1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.teacher-logo-2{
+    height: 80%;
+    width: 60%;
+    border: 5px solid rgb(197, 170, 170);
+    border-radius: 50%;
+    background-image: url(t-2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.teacher-logo-3{
+    height: 80%;
+    width: 60%;
+    border: 5px solid rgb(197, 170, 170);
+    border-radius: 50%;
+    background-image: url(t-3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
