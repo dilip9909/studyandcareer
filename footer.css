@@ -1,5 +1,5 @@
 *{
-    margin: 0%;
+    margin: 0%; 
     padding: 0%;
     border: 0%;
     
@@ -7,10 +7,10 @@
 }
 
 .footer{
-    height: 30vh;
-    width: 100vw;
+    height: 5vmax;
+    width: 100vmax;
     background-color: black;
-    border: 2px solid black;
+    border: .2vmax solid black;
     font-family: 'Courier New', Courier, monospace;
     
 }
@@ -18,10 +18,10 @@
 .footer-copy{
     
     text-align: center;
-    font-size: large;
+    font-size:2vmax;
     color: white;
     position: relative;
-    top:25vh;
+    top:2vmax;
  
   
    
