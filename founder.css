@@ -1,7 +1,7 @@
 .founder{
-    height: 130vh;
-    width: 100vw;
-    border: 2px solid rgb(82 23 23 / 0%);
+    height: 100vmax;
+    width: 100vmax;
+    border: .2vmax solid rgb(82 23 23 / 0%);
     display: flex;
     background-color: rgba(47, 58, 177, 0.336);
     flex-direction: column;
@@ -13,20 +13,18 @@
 
 
 
-.founder-1,.founder-2{
-    height:40vh;
-    width: 30vw;
+#founder-1,#founder-2{
+    height:40vmax;
+    width: 30vmax;
     
-    
-   
 
 
 }
 
 .f-logo-1{
     height: 80%;
-    width: 60%;
-    border: 5px solid rgba(197, 170, 170, 0.995);
+    width: 100%;
+    border:  .1vmax solid rgba(125, 182, 233, 0.701) ;
     border-radius: 50%;
     background-image: url(f-1.jpg);
     background-size:cover;
@@ -37,12 +35,18 @@
 
 .f-logo-2{
     height: 80%;
-    width: 60%;
-    border: 5px solid rgb(197, 170, 170);
+    width: 100%;
+    border:  .1vmax solid rgba(125, 182, 233, 0.701) ;
     border-radius: 50%;
     background-image: url(f-2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
 
+}
+
+#founder-1>pre,#founder-2>pre{
+    font-size: 2vmax;
+    color:black;
+    text-align:start;
 }
