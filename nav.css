@@ -6,14 +6,19 @@
     
 
 }
-
+.main_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 .nav{
-    height:50px;
-    width: 100vw;
+    
+    width: 100vmax;
+   height: 7vmax;
    /*border: 4px solid rgb(9, 255, 0);*/
     background-color: rgba(139, 231, 130, 0.651);
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-evenly;
    /* position: fixed;
     top: 0%;
@@ -23,16 +28,18 @@
 
 
 .nav-logo{
-    border-radius: 7px;
-    border: 2px solid rgb(217, 15, 15);
-    height:30px;
-    width: 10vw;
-    margin: 5px;
-    background-image: url(sportslogo.png);
-    background-size:cover;
+    border-radius: 11vmax;
+   
+    border: .1vmax solid black;
+    height:7vmax;
+    width: 7vmax;
+    margin: 0vmax;
+    background-image: url(65745233_1805730209572128_1754042056453390336_n.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
     background-color: white;
     position: relative;
-    right: 30px;
+    left: 0vmax;
    
 }
 
@@ -51,16 +58,18 @@ a{
     color: rgba(25, 36, 35, 0.947);
     font-size: 16px;
     font-weight: bold;
+    
 
 
 }
 
 .dropbtn{
     
-    color:rgb(13, 12, 12);
+    
     border: none;
     background-color: transparent;
     font-size: 16px;
+    font-weight: bold;
 
     
   
@@ -68,17 +77,10 @@ a{
 }
 
 .course{
-    font-size: 16px;
-    
-    color:rgb(246, 14, 14);
-  
-   text-align: center;
-  
-   height: 20px;
-   width: 60px;
-   text-align: center;
+
    padding: 5px;
    border-radius: 5px;
+    
   
 }
 
@@ -104,14 +106,12 @@ a{
 
 
 .teachers{
-  
-    color:rgb(246, 14, 14);
-  
-   text-align: center;
-  
-   height: 20px;
-   width: 60px;
-   text-align: center;
+    
+   padding: 5px;
+   border-radius: 5px;
+}
+#gallery,#contact{
+    
    padding: 5px;
    border-radius: 5px;
 }
@@ -123,35 +123,45 @@ a{
 
 
 
+.teachers:hover,#home:hover,.course:hover,#gallery:hover,#contact:hover{
+    background-color: hsla(240, 24%, 67%, 0.711);
+}
+
+
+
+.teachers::after{
+    background-color: hsla(240, 24%, 67%, 0.711);
+}
+
+
+
+
+
+
+
 
 .header{
-    height:80px;
-    width: 100vw;
+ 
+    width: 100vmax;
     
     /*border: 4px solid rgb(9, 255, 0);*/
     background-color:aliceblue;
-  
-    text-align: center;
-    padding-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+
   
 
 }
  
-h1{
-    font-size: 36px;
+.header>h1{
+    font-size: 3.5vmax;
     color: rgb(38, 0, 141);
 }
-
-.teachers:hover{
-    background-color: hsla(240, 24%, 67%, 0.711);
-}
-#home:hover{
-    background-color:hsla(240, 24%, 67%, 0.711);;
-} 
-.course:hover{
-    background-color:hsla(240, 24%, 67%, 0.711);;
-}
-
-.teachers::after{
-    background-color: hsla(240, 24%, 67%, 0.711);
+ 
+.header>p{
+    font-size: 1.5vmax;
+    color: rgb(38, 0, 141);
 }
