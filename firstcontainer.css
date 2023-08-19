@@ -1,31 +1,34 @@
 .first_con{
    
   
-  height: 80vh;
+  height: 35vmax;
   display: flex;
-  width: 100vw;
+  width: 100vmax;
   align-items: center;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content:space-between;
  
 }
 
 
-#image{
-  width: 30vw;
-  height: 50vh;
-  border-radius: 50%;
-  margin: 0;
+.first_con>img{
+ 
+  height: 25vmax;
+  width: 30vmax;
+  border-radius: 50vmax;
+  position: relative;
+  left:2vmax;
+
 }
 
-.quotes { 
+.quotes>p { 
 
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 25px;
-  height: 40vh;
-  width: 100vh;
-   font-family: 'Roboto', sans-serif;
+  font-size: 2vmax;
+  height: 25vmax;
+  width: 68vmax;
+  font-family: 'Roboto';
+  position: relative;
+  left: 1vmax;
 
     
 }
