@@ -1,18 +1,18 @@
-.teacher{
-    height: 80vh;
-    width: 100vw;
-    border: 2px solid rgb(223, 214, 214);
+.teacher{height: 50vmax;
+    width: 100vmax;
+    border: .2vmax solid rgb(223, 214, 214);
     display: flex;
     background-color: rgba(125, 182, 233, 0.701);
     align-items: center;
-    justify-content: flex-end;
+    justify-content:space-around;
+    
 }
 
 
 
-.teacher-container-1,.teacher-container-2,.teacher-container-3,.teacher-container-4{
-    height:40vh;
-    width: 30vw;
+#teacher-container-1,#teacher-container-2,#teacher-container-3,#teacher-container-4{
+    height:40vmax;
+    width: 33%;
     
     
    
@@ -21,36 +21,50 @@
 }
 
 .teacher-logo-1{
-    height: 80%;
-    width: 60%;
-    border: 5px solid rgb(197, 170, 170);
+    height: 70%;
+    width: 80%;   
+    border:  .1vmax solid rgba(125, 182, 233, 0.701) ;
     border-radius: 50%;
     background-image: url(t-1.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    left:2vmax;
 
 }
 
 .teacher-logo-2{
-    height: 80%;
-    width: 60%;
-    border: 5px solid rgb(197, 170, 170);
+    height: 70%;
+    width: 80%;
+    border:  .1vmax solid rgba(125, 182, 233, 0.701) ;
     border-radius: 50%;
     background-image: url(t-2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    left:3vmax;
+
 
 }
 .teacher-logo-3{
-    height: 80%;
-    width: 60%;
-    border: 5px solid rgb(197, 170, 170);
+    height: 70%;
+    width: 80%;
+    border:  .1vmax solid rgba(125, 182, 233, 0.701) ;
     border-radius: 50%;
     background-image: url(t-3.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    right:-4vmax;
 
+}
+
+
+#teacher-container-1>pre,#teacher-container-2>pre,#teacher-container-3>pre{
+    font-size: 2vmax;
+    color:black;
+    text-align:start;
 }
