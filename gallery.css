@@ -9,6 +9,7 @@
 }
 
 h2{
+    width: 100vmax;
     text-align: center;
     font-size: 2vmax;
     font-family: 'Times New Roman', Times, serif;
