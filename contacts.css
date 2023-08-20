@@ -13,13 +13,13 @@
 .social{
     display: flex;
     width: 100vmax;
-    height: 13vmax;
+    height: 10vmax;
+    
    
 }
 
 .social-1,.social-2,.social-3,.social-4{
     width: 33%;
-    height: 7vmax;
    
     display: flex;
     
